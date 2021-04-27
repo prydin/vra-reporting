@@ -16,7 +16,7 @@ interesting statistics.
 ```bash
 git clone https://github.com/prydin/vra-reporting
 cd vra-report
-pip -r requirements.txt
+pip install -r requirements.txt
 python report.py --lookback 30 --out myfile.csv --token BLABLABLA --url https://myvra.example.com
 ```
 
