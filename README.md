@@ -21,3 +21,15 @@ python report.py --lookback 30 --out myfile.csv --token BLABLABLA --url https://
 ```
 
 ### Command line parameters
+
+```
+usage: report.py [-h] --url URL --token TOKEN [--insecure] [--lookback LOOKBACK] --out OUT
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --url URL            The vRA URL
+  --token TOKEN        The vRA API token
+  --insecure           Skip cert validation
+  --lookback LOOKBACK  Number of days to report (default=30)
+  --out OUT            Output filename
+```
